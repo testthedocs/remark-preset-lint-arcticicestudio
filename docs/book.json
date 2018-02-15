@@ -1,0 +1,20 @@
+{
+  "gitbook": "3.2.3",
+  "title": "Arctic Ice Studio remark-lint Preset",
+  "description": "The Arctic Ice Studio Markdown Style Guide rules as remark-lint configuration preset.",
+  "author": "Arctic Ice Studio",
+  "plugins": ["anchorjs", "github", "toggle-chapters", "toggle-headers", "-sharing"],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio"
+    },
+    "lunr": {
+      "maxIndexSize": 1000000000
+    },
+    "theme-default": {
+      "styles": {
+        "website": "./styles/website.css"
+      }
+    }
+  }
+}
