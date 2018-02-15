@@ -1,0 +1,28 @@
+{
+  "name": "remark-preset-lint-arcticicestudio",
+  "title": "Arctic Ice Studio remark-lint Preset",
+  "version": "0.0.0",
+  "description": "The Arctic Ice Studio Markdown Style Guide rules as remark-lint configuration preset.",
+  "author": {
+    "name": "Arctic Ice Studio",
+    "email": "development@arcticicestudio.com",
+    "url": "http://arcticicestudio.com"
+  },
+  "homepage": "https://arcticicestudio.github.io/remark-preset-lint-arcticicestudio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "remark",
+    "lint",
+    "preset",
+    "markdown",
+    "styleguide",
+    "codestyle"
+  ]
+}
