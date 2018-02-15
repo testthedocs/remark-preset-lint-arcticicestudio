@@ -1,0 +1,5 @@
+# +---------+
+# + Node.js +
+# +---------+
+docs/node_modules/*
+!.remarkrc.js
