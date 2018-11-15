@@ -77,7 +77,7 @@ const orderedListMarkerStyle = require("remark-lint-ordered-list-marker-style");
  */
 const orderedListMarkerValue = require("remark-lint-ordered-list-marker-value");
 /**
- * Enforce asterisk ("*") marker character style for unordered list items.
+ * Enforce dash (`-`) marker character style for unordered list items.
  *
  * @since 0.1.0
  * @see {@link https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-unordered-list-marker-style unordered-list-marker-style}
@@ -98,6 +98,6 @@ module.exports = {
     [listItemSpacing, false],
     [orderedListMarkerStyle, ["error", "."]],
     [orderedListMarkerValue, ["error", "ordered"]],
-    [unorderedListMarkerStyle, ["error", "*"]]
+    [unorderedListMarkerStyle, ["error", "-"]]
   ]
 };
