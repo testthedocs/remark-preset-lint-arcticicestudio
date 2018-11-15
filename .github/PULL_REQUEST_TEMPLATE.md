@@ -8,9 +8,9 @@ This section and the instructions in the sections below are only part of this pu
 
 Please do your best to provide as much information as possible and use a clear and descriptive title for your enhancement suggestion or bug fix to help maintainers and the community understand and reproduce the behavior, find related pull requests and to merge it faster.
 
-* **Ensure the pull request has not already been reported by using the [GitHub Pull Request search](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/pulls)** — if it has **and the pull request is still open**, add a comment to the existing pull request instead of opening this new one. If you find a closed pull request that seems to be similar to this one, include a link to it in the [metadata head](#metadata-head) section of this pull request.
-* **Ensure the contribution doesn't belong to any [port project](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/blob/develop/CONTRIBUTING.md#port-projects).**
-* **Ensure to adhere to the [pull request contribution guidelines](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/blob/feature/gh-12-github-open-source-community-standards/CONTRIBUTING.md#pull-requests)**, especially the one for tests and documentations.
+- **Ensure the pull request has not already been reported by using the [GitHub Pull Request search](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/pulls)** — if it has **and the pull request is still open**, add a comment to the existing pull request instead of opening this new one. If you find a closed pull request that seems to be similar to this one, include a link to it in the [metadata head](#metadata-head) section of this pull request.
+- **Ensure the contribution doesn't belong to any [port project](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/blob/develop/CONTRIBUTING.md#port-projects).**
+- **Ensure to adhere to the [pull request contribution guidelines](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/blob/feature/gh-12-github-open-source-community-standards/CONTRIBUTING.md#pull-requests)**, especially the one for tests and documentations.
 
 ## Metadata Head
 

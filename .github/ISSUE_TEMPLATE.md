@@ -8,9 +8,9 @@ This section and the instructions in the sections below are only part of this is
 
 Please do your best to provide as much information as possible and use a clear and descriptive title for your enhancement suggestion or bug report to help maintainers and the community understand and reproduce the behavior, find related reports and to resolve the ticket faster.
 
-* **Ensure the issue has not already been reported by using the [GitHub Issues search](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/issues)** — if it has **and the issue is still open**, add a comment to the existing issue instead of opening this new one. If you find a closed issue that seems to be similar to this one, include a link to the original issue in the [metadata head](#metadata-head) section of this issue.
-* **Ensure the contribution doesn't belong to any [port project](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/blob/develop/CONTRIBUTING.md#port-projects).**
-* **Ensure the issue is reproducible** — try to use the [latest version](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/releases/latest) and [`develop`](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/tree/develop) branch.
+- **Ensure the issue has not already been reported by using the [GitHub Issues search](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/issues)** — if it has **and the issue is still open**, add a comment to the existing issue instead of opening this new one. If you find a closed issue that seems to be similar to this one, include a link to the original issue in the [metadata head](#metadata-head) section of this issue.
+- **Ensure the contribution doesn't belong to any [port project](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/blob/develop/CONTRIBUTING.md#port-projects).**
+- **Ensure the issue is reproducible** — try to use the [latest version](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/releases/latest) and [`develop`](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/tree/develop) branch.
 
 ## Metadata Head
 
@@ -23,12 +23,12 @@ The metadata head should be added to the top of the issue as [Markdown text quot
 
 Set the *type* of this issue. It determines which information will be required in the following sections when it is an [bug report](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/blob/develop/CONTRIBUTING.md#bug-reports) or an [enhancement suggestion](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/blob/develop/CONTRIBUTING.md#enhancement-suggestions).
 
-* *feature*
-* *improvement*
-* *bug*
-* *test*
-* *task*
-* *subtask*
+- *feature*
+- *improvement*
+- *bug*
+- *test*
+- *task*
+- *subtask*
 
 ## Description
 
@@ -58,14 +58,14 @@ The recommended way is to upload it as [Gist](https://gist.github.com) or new re
 
 ## Environment and Versions
 
-* What is the version of *Arctic Ice Studio remark-lint Preset* you are running?
-* What is the name and the version of your OS?
-  * Have you tried to reproduce it on different OS environments and if yes is the behavior the same for all?
-* Have you installed all [required peer dependencies](https://arcticicestudio.github.io/remark-preset-lint-arcticicestudio/getting-started/installation.html#peer-dependencies)?
-  * Please add the versions of the installed packages.
-* If the problem is related to [Node.js](https://nodejs.org) please provide the Node.js version you're running.
-  * Are you using any additional CLI arguments for Node.js?
-* ... any additional information
+- What is the version of *Arctic Ice Studio remark-lint Preset* you are running?
+- What is the name and the version of your OS?
+  - Have you tried to reproduce it on different OS environments and if yes is the behavior the same for all?
+- Have you installed all [required peer dependencies](https://arcticicestudio.github.io/remark-preset-lint-arcticicestudio/getting-started/installation.html#peer-dependencies)?
+  - Please add the versions of the installed packages.
+- If the problem is related to [Node.js](https://nodejs.org) please provide the Node.js version you're running.
+  - Are you using any additional CLI arguments for Node.js?
+- ... any additional information
 
 ## Stack Trace and Error Messages
 
