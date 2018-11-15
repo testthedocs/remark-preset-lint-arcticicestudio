@@ -35,7 +35,7 @@
     "docs:build": "gitbook install docs && gitbook build docs build/docs",
     "docs:dev": "npm run docs:build && gitbook serve docs build/docs",
     "lint:js": "eslint --report-unused-disable-directives ./.remarkrc.js index.js rules",
-    "lint:md": "remark --no-stdout ./*.md docs/ .github/",
+    "lint:md": "remark --no-stdout . docs/ .github/",
     "lint": "npm run lint:js && npm run lint:md",
     "prepublishOnly": "npm run lint"
   },

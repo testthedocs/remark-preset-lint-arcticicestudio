@@ -1,5 +1,5 @@
 > Please make sure to complete the [requirement][getting-started-requirements] and [installation][getting-started-installation] steps first in order to build the project!
-
+>
 > Continuous integration builds are running at [Circle CI][ci-circle].
 
 ## Documentations
