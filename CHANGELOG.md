@@ -6,6 +6,18 @@
 
 <p align="center">The <a href="https://arcticicestudio.github.io/styleguide-markdown">Arctic Ice Studio Markdown Style Guide</a> rules as <a href="https://github.com/remarkjs/remark-lint">remark-lint</a> configuration preset</p>
 
+# 0.3.0
+
+![Release Date: 2018-11-17](https://img.shields.io/badge/Release_Date-2018--11--17-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/projects/5) [![Milestone](https://img.shields.io/badge/Milestone-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/milestone/3)
+
+> Detailed information can be found in the [project documentation][docs].
+
+## Features
+
+### Support Rules
+
+❯ Added support for [remark-frontmatter][gh-remark-frontmatter] to allow to lint the “frontmatter” Markdown extension for [YAML][] and [TOML][gh-toml], e.g. used in [GitHub's issue and pull request templates][ghh-templates]. (#5, 733689fe)
+
 # 0.2.0
 
 ![Release Date: 2018-11-15](https://img.shields.io/badge/Release_Date-2018--11--15-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/projects/3) [![Milestone](https://img.shields.io/badge/Milestone-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/milestone/2)
@@ -14,7 +26,7 @@
 
 ## Improvements
 
-### Rules
+### Core Rules
 
 ❯ Changed [unordered list marker][ghp-style-guide-unordered-marker] from asterisk `*` to dash `-` because asterisks can be confused for bold/italic markers. This also aligns with the default format of Prettier. (#3 in PR #4, f391436e)
 
@@ -28,7 +40,7 @@ This version is the initial [npm package][npm-remark-preset-lint-arcticicestudio
 
 ## Features
 
-### Rules
+### Core Rules
 
 ❯ Added all [remark-lint core rules][remark-lint-gh-doc-rules]. (#1 in PR #2, e40c982f)
 
@@ -43,6 +55,10 @@ This version is the initial [npm package][npm-remark-preset-lint-arcticicestudio
 <p align="center"><a href="https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-5E81AC.svg?style=flat-square"/></a></p>
 
 [docs]: https://arcticicestudio.github.io/remark-preset-lint-arcticicestudio
+[gh-toml]: https://github.com/toml-lang/toml
+[gh-remark-frontmatter]: https://github.com/remarkjs/remark-frontmatter
+[ghh-templates]: https://help.github.com/articles/about-issue-and-pull-request-templates
 [ghp-style-guide-unordered-marker]: https://arcticicestudio.github.io/styleguide-markdown/rules/lists.html#unordered-marker
 [npm-remark-preset-lint-arcticicestudio]: https://www.npmjs.com/package/remark-preset-lint-arcticicestudio
 [remark-lint-gh-doc-rules]: https://github.com/remarkjs/remark-lint/blob/master/doc/rules.md#list-of-rules
+[yaml]: http://yaml.org
