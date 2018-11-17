@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2018-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (c) 2018-present Sven Greb <code@svengreb.de>
+ * Copyright (C) 2018-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (C) 2018-present Sven Greb <development@svengreb.de>
  *
  * Project:    Arctic Ice Studio remark-lint Preset
  * Repository: https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio
@@ -12,7 +12,7 @@
  * @version 0.2.0
  * @author Arctic Ice Studio <development@arcticicestudio.com>
  * @copyright 2018-present Arctic Ice Studio <development@arcticicestudio.com>
- * @copyright 2018-present Sven Greb <code@svengreb.de>
+ * @copyright 2018-present Sven Greb <development@svengreb.de>
  * @license MIT
  * @see {@link https://github.com/remarkjs/remark-lint remark-lint}
  * @see {@link https://remark.js.org remark}
@@ -34,6 +34,7 @@ module.exports = {
     "./rules/paragraphs",
     "./rules/raw-html",
     "./rules/strings",
+    "./rules/support",
     "./rules/tables",
     "./rules/whitespace"
   ].map(require.resolve)

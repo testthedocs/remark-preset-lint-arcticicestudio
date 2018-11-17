@@ -12,7 +12,7 @@
 
 The documentation provides chapters to learn about the [requirements][ghio-docs-getting-started-requirements], the [installation][ghio-docs-getting-started-installation] and [how to use][ghio-docs-getting-started-usage] the package. You can learn [how to build][ghio-docs-dev-building] the project and [run the tests][ghio-docs-dev-testing] in the development chapters.
 
-The package includes support for all [official core rules][remark-lint-gh-doc-rules].
+The package includes support for all [official core rules][remark-lint-gh-doc-rules]. It also includes supports the “_frontmatter_” Markdown extension for [YAML][] and [TOML][gh-toml] via [remark-frontmatter][gh-remark-frontmatter].
 
 ### Quick Start
 
@@ -58,6 +58,7 @@ The guide also includes information about [minimal, complete, and verifiable exa
 
 <p align="center"><a href="https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-5E81AC.svg?style=flat-square"/></a></p>
 
+[gh-remark-frontmatter]: https://github.com/remarkjs/remark-frontmatter
 [ghio-docs-dev-building]: https://arcticicestudio.github.io/remark-preset-lint-arcticicestudio/development/building.html
 [ghio-docs-dev-contributing]: https://arcticicestudio.github.io/remark-preset-lint-arcticicestudio/development/contributing.html
 [ghio-docs-dev-contributing-branch-org]: https://arcticicestudio.github.io/remark-preset-lint-arcticicestudio/development/contributing.html#branch-organization
@@ -79,3 +80,5 @@ The guide also includes information about [minimal, complete, and verifiable exa
 [npm-remark-cli]: https://www.npmjs.com/package/remark-cli
 [remark-lint-doc-conf]: https://github.com/remarkjs/remark-lint#configuring-remark-lint
 [remark-lint-gh-doc-rules]: https://github.com/remarkjs/remark-lint/blob/master/doc/rules.md#list-of-rules
+[gh-toml]: https://github.com/toml-lang/toml
+[yaml]: http://yaml.org
