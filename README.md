@@ -6,13 +6,13 @@
 
 <p align="center"><img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/remark-preset-lint-arcticicestudio"><img src="https://img.shields.io/circleci/project/github/arcticicestudio/remark-preset-lint-arcticicestudio/develop.svg?style=flat-square"/></a></p>
 
-<p align="center"><a href="https://arcticicestudio.github.io/remark-preset-lint-arcticicestudio"><img src="https://img.shields.io/badge/Docs-0.2.0-5E81AC.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/blob/develop/CHANGELOG.md#020"><img src="https://img.shields.io/badge/Changelog-0.2.0-5E81AC.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/styleguide-markdown"><img src="https://img.shields.io/badge/Markdown_Style_Guide-0.2.0-88C0D0.svg?style=flat-square&colorA=2E3440&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNEOERFRTkiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMS41IDEuNWgzNnYzNmgtMzZ6Ii8%2BPHBhdGggZmlsbD0iI0Q4REVFOSIgZD0iTTIwLjY4MyAyNS42NTVsNS44NzItMTMuNDhoLjU2Nmw1Ljg3MyAxMy40OGgtMS45OTZsLTQuMTU5LTEwLjA1Ni00LjE2MSAxMC4wNTZoLTEuOTk1em0tMi42OTYgMGwtMTMuNDgtNS44NzJ2LS41NjZsMTMuNDgtNS44NzJ2MS45OTVMNy45MzEgMTkuNWwxMC4wNTYgNC4xNnoiLz48L3N2Zz4%3D"/></a></p>
+<p align="center"><a href="https://arcticicestudio.github.io/remark-preset-lint-arcticicestudio"><img src="https://img.shields.io/badge/Docs-0.3.0-5E81AC.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/blob/develop/CHANGELOG.md#020"><img src="https://img.shields.io/badge/Changelog-0.3.0-5E81AC.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/styleguide-markdown"><img src="https://img.shields.io/badge/Markdown_Style_Guide-0.2.0-88C0D0.svg?style=flat-square&colorA=2E3440&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNEOERFRTkiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMS41IDEuNWgzNnYzNmgtMzZ6Ii8%2BPHBhdGggZmlsbD0iI0Q4REVFOSIgZD0iTTIwLjY4MyAyNS42NTVsNS44NzItMTMuNDhoLjU2Nmw1Ljg3MyAxMy40OGgtMS45OTZsLTQuMTU5LTEwLjA1Ni00LjE2MSAxMC4wNTZoLTEuOTk1em0tMi42OTYgMGwtMTMuNDgtNS44NzJ2LS41NjZsMTMuNDgtNS44NzJ2MS45OTVMNy45MzEgMTkuNWwxMC4wNTYgNC4xNnoiLz48L3N2Zz4%3D"/></a></p>
 
 ## Getting Started
 
 The documentation provides chapters to learn about the [requirements][ghio-docs-getting-started-requirements], the [installation][ghio-docs-getting-started-installation] and [how to use][ghio-docs-getting-started-usage] the package. You can learn [how to build][ghio-docs-dev-building] the project and [run the tests][ghio-docs-dev-testing] in the development chapters.
 
-The package includes support for all [official core rules][remark-lint-gh-doc-rules].
+The package includes support for all [official core rules][remark-lint-gh-doc-rules]. It also includes supports the “_frontmatter_” Markdown extension for [YAML][] and [TOML][gh-toml] via [remark-frontmatter][gh-remark-frontmatter].
 
 ### Quick Start
 
@@ -58,6 +58,7 @@ The guide also includes information about [minimal, complete, and verifiable exa
 
 <p align="center"><a href="https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-5E81AC.svg?style=flat-square"/></a></p>
 
+[gh-remark-frontmatter]: https://github.com/remarkjs/remark-frontmatter
 [ghio-docs-dev-building]: https://arcticicestudio.github.io/remark-preset-lint-arcticicestudio/development/building.html
 [ghio-docs-dev-contributing]: https://arcticicestudio.github.io/remark-preset-lint-arcticicestudio/development/contributing.html
 [ghio-docs-dev-contributing-branch-org]: https://arcticicestudio.github.io/remark-preset-lint-arcticicestudio/development/contributing.html#branch-organization
@@ -79,3 +80,5 @@ The guide also includes information about [minimal, complete, and verifiable exa
 [npm-remark-cli]: https://www.npmjs.com/package/remark-cli
 [remark-lint-doc-conf]: https://github.com/remarkjs/remark-lint#configuring-remark-lint
 [remark-lint-gh-doc-rules]: https://github.com/remarkjs/remark-lint/blob/master/doc/rules.md#list-of-rules
+[gh-toml]: https://github.com/toml-lang/toml
+[yaml]: http://yaml.org
